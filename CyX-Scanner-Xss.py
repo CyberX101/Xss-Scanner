@@ -87,6 +87,15 @@ if __name__ == "__main__":
     import sys
     url = input(f'{red}Enter Url Target : ')
     print(CyX_Xss_Scanner(url))
+      
+Cyx = input('Do you want to follow our channel on Telegram ? (y/n)')
+if Cyx == 'y':
+    webbrowser.open("https://t.me/CyX_Security")
+elif Cyx == 'n':
+    print('(#_#)')
+    exit()
+    
+
 
 
     
