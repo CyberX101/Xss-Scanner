@@ -13,17 +13,8 @@ green = '\033[32m'
 
 CyX = (f'''{red}
 
-   ___    __  __   ___                              __  __       
-  / __|  _\ \/ /__/ __| __ __ _ _ _  _ _  ___ _ _ __\ \/ / ______
- | (_| || |>  <___\__ \/ _/ _` | ' \| ' \/ -_) '_|___>  < (_-<_-<
-  \___\_, /_/\_\  |___/\__\__,_|_||_|_||_\___|_|    /_/\_\/__/__/
-      |__/                                                       
-
-
-
-{green} @CyberX10
-
-
+      XSS SCANNER SCRIPT
+         BY CYBER MAX
 
 ''')
 print(CyX)
@@ -69,7 +60,7 @@ def submit_form(form_details, url, value):
         return requests.get(target_url, params=data)
 
 
-def CyX_Xss_Scanner(url):
+def Xss_Scanner(url):
    
     forms = get_all_forms(url)
     print(f"{red}[+] Detected {len(forms)} forms on {url}.")
@@ -89,11 +80,11 @@ def CyX_Xss_Scanner(url):
 if __name__ == "__main__":
     import sys
     url = input(f'{red}Enter Url Target : ')
-    print(CyX_Xss_Scanner(url))
+    print(Xss_Scanner(url))
       
 Cyx = input('Do you want to follow our channel on Telegram ? (y/n)')
 if Cyx == 'y':
-    webbrowser.open("https://t.me/CyX_Security")
+    webbrowser.open("https://t.me/CyberSpyWare")
 elif Cyx == 'n':
     print('(#_#)')
     exit()
